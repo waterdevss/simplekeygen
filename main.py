@@ -3,9 +3,9 @@ from discord.ext import commands
 import random
 import time
 
-TOKEN = "MTE3ODQ3MjAyMzE1NzEyNTI2MQ.GwQbqD.AyrsG2n91emPfH9mIpi0cE5PI-cIScScOqpra8"
-PREFIX = "$"
-ROLE_ID_TO_ASSIGN = 1178488708001959988  # Replace with your desired role ID
+TOKEN = "YOUR TOKEN"
+PREFIX = "$" # ur desired prefix
+ROLE_ID_TO_ASSIGN = 12345678910  # Replace with your desired role ID
 
 intents = discord.Intents.default()
 intents.message_content = True  # Enable message content in the on_message event
